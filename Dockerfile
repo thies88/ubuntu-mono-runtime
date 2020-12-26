@@ -1,4 +1,4 @@
-FROM thies88/docker-base-ubuntu
+FROM thies88/base-ubuntu
 
 # set version label
 ARG BUILD_DATE
