@@ -3,7 +3,6 @@ FROM thies88/base-ubuntu
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG RADARR_RELEASE
 LABEL build_version="version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thies88"
 
