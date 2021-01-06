@@ -27,6 +27,7 @@ echo "**** install apt-transport-https ****" && \
  apt-get update && \
  apt-get install --no-install-recommends -y \
 	mono-runtime-common \
+	mono-vbnc \
 	jq \
 	libicu?? \
 	libmediainfo??? \
