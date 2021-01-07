@@ -1,5 +1,5 @@
 # Set global vars
-ARG REL=latest
+ARG REL=bionic
 ARG ARCH=amd64
 
 FROM thies88/base-ubuntu:${REL}
