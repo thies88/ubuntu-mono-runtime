@@ -1,8 +1,7 @@
 # Set global vars
-ARG REL=latest
-ARG ARCH=amd64
+ARG REL=focal
 
-FROM thies88/base-ubuntu:$REL
+FROM thies88/base-ubuntu:${REL}
 
 # set version label
 ARG BUILD_DATE
