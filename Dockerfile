@@ -1,5 +1,5 @@
 # Set global vars
-ARG REL=focal
+ARG REL=focaltest
 
 FROM thies88/base-ubuntu:${REL}
 
