@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build --build-arg REL=focal -f $DOCKERFILE_PATH -t $IMAGE_NAME .
